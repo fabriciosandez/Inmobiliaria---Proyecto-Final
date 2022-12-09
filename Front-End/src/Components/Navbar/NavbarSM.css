@@ -1,0 +1,62 @@
+.headerBoxBottom {
+  border-top: 1px solid #323232;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  background-color: black;
+}
+
+.hambuergernavUl {
+  list-style: none;
+  height: 65%;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  color: #eeeeee;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  z-index: 20;
+  align-items: center;
+}
+
+.hambuergerNavLi {
+  width: 80%;
+  height: 17%;
+  font-size: 24px;
+  padding-top: 24px;
+  border-bottom: 1px solid #323232;
+  border-top: 1px solid #323232;
+}
+.hambuergerNavLi a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+.hambuergerNavLi a:hover {
+  color: #eeeeee;
+}
+
+.hamburgerMenu {
+  height: 0vh !important ;
+  overflow: hidden;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.isActive {
+  height: 100vh !important;
+  opacity: 1;
+}
+
+.hambuergerButton {
+  color: #eeeeee;
+  background-color: black;
+  height: 10%;
+  width: 80%;
+
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.hambuergerButton img {
+  min-width: 20px;
+}

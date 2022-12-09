@@ -1,0 +1,135 @@
+.mainText {
+  color: white;
+  font-weight: 600;
+  padding: auto;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.backVideo {
+  position: absolute;
+  z-index: -1;
+  top: auto;
+  left: 0;
+  overflow: hidden;
+}
+
+.mainInput {
+  color: black;
+  background-color: white;
+  height: 40px;
+  padding: 5px;
+  width: 90%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.tabSwitch {
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.tabSwitch:hover {
+  background-color: white;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainContainer {
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  right: 0;
+  left: 0;
+}
+
+.tabList {
+  width: 90%;
+  justify-content: flex-start;
+}
+
+.inputButton {
+  position: absolute;
+  right: 0;
+  align-items: center;
+  justify-items: center;
+  background-color: black;
+  color: aliceblue;
+  font-size: 13px;
+  padding: 5px;
+  border: 1px solid black;
+  height: 40px;
+  width: 90px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainInputSm {
+  color: black;
+  background-color: white;
+  height: 40px;
+  padding: 5px;
+  width: 90%;
+  font-size: 10px;
+}
+.inputButtonSm {
+  position: relative;
+  right: 0;
+  align-items: center;
+  justify-items: center;
+  background-color: black;
+  color: aliceblue;
+  font-size: 13px;
+  padding: 5px;
+  border: 1px solid aliceblue;
+  height: 35px;
+  width: 90%;
+}
+
+.panelLabel {
+  position: relative;
+}
+
+.carruselCont {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #fff;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.carrusel1 {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  height: 25rem;
+}
+.carrusel2 {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  height: 25rem;
+}
+
+.destacadas {
+  height: auto;
+}
+
+.carouselTittle {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.divCarousel {
+  background-color: #f4f4f4;
+  margin: 3%;
+}
+
+@media (max-width: 400px) {
+  .carruselCont {
+    flex-wrap: wrap;
+    height: auto;
+  }
+}

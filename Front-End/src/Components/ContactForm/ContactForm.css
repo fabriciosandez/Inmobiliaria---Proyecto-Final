@@ -1,0 +1,17 @@
+.loginForm {
+  font-family: "Montserrat", sans-serif;
+}
+
+.formInput {
+  margin-bottom: 12px;
+}
+
+.formHeader {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+}
+
+.formButton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

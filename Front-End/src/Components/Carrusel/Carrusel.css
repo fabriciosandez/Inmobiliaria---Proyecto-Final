@@ -1,0 +1,9 @@
+.img {
+  margin: auto;
+  width: 100% !important;
+}
+
+.carouselContainer {
+  height: 18rem;
+  overflow: hidden;
+}

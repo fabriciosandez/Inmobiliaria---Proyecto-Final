@@ -1,0 +1,33 @@
+.propertyForm {
+  font-family: "Montserrat", sans-serif;
+  columns: 2;
+}
+
+.formInput {
+  margin-bottom: 12px;
+}
+
+.formHeader {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+}
+
+.propertyFormButton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fileInput {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.formTitle {
+  width: 98.3%;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+}

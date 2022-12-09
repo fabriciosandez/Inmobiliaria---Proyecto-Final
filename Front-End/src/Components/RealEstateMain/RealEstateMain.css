@@ -1,0 +1,22 @@
+.selectors {
+  margin: 10px 0;
+  border: 2px solid black;
+}
+
+.inputButtonFilter {
+  align-items: center;
+  justify-items: center;
+  color: aliceblue;
+  font-size: 13px;
+  padding: 5px;
+  border: 2px solid black;
+  height: 40px;
+  width: 90px;
+  border-radius: 5px;
+}
+
+@media (max-width: 400px) {
+  .carrusel1 {
+    width: auto;
+  }
+}

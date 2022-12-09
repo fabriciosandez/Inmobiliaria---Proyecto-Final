@@ -1,0 +1,177 @@
+.contDescripcion {
+  height: auto;
+  background: hsla(0, 8%, 23%, 1);
+  background: linear-gradient(
+    180deg,
+    hsla(0, 8%, 23%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#403737", endColorstr="#000000", GradientType=1 );
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img {
+  width: 50%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.dataCont {
+  height: 9rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2rem;
+}
+.nombre {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+}
+.info {
+  display: flex;
+  gap: 8rem;
+}
+.circuloCont {
+  display: flex;
+  gap: 1rem;
+}
+
+.circulo {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: #5cb85c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 2rem;
+}
+.location {
+  font-size: 1.5rem;
+}
+
+.dorm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.estadoCont {
+  display: flex;
+  flex-direction: column;
+}
+.estado {
+  background-color: #5cb85c;
+  text-align: center;
+  border-radius: 0.3rem;
+  width: 5rem;
+  padding: 0.5rem;
+}
+.descripcion {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  flex-direction: column;
+}
+.descripcionleft {
+  width: 100%;
+
+  font-size: 28px;
+  padding: 1rem 0 1rem 2rem;
+}
+.descripcionrigth {
+  padding: 0 2rem;
+}
+
+.contDescripcionMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: hsla(0, 8%, 23%, 1);
+  background: linear-gradient(
+    180deg,
+    hsla(0, 8%, 23%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#403737", endColorstr="#000000", GradientType=1 );
+  /* overflow: hidden; */
+}
+
+@media (max-width: 400px) {
+  .descripcion {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .circuloCont {
+    flex-direction: column;
+  }
+  .descripcion {
+    padding-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 10%;
+  }
+  .descripcionleft {
+    width: auto;
+  }
+  .carrusel {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .dataCont {
+    height: 18rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 2rem;
+    gap: 2rem;
+  }
+  .nombre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+  }
+  .info {
+    display: flex;
+    gap: 2rem;
+  }
+  .circuloCont {
+    display: flex;
+    gap: 1rem;
+  }
+  .contDescripcionMain {
+    width: 100%;
+  }
+  .circulo {
+    width: 3rem;
+    height: 3rem;
+  }
+  .icon {
+    font-size: 2rem;
+  }
+  .location {
+    font-size: 1.5rem;
+  }
+  .estado {
+    padding: 0.3rem;
+  }
+  .carrusel img {
+    height: 20rem;
+    object-fit: cover;
+  }
+}

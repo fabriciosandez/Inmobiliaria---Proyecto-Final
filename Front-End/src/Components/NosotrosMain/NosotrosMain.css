@@ -1,0 +1,36 @@
+.nosotrosBox {
+  padding: 3%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nosotrosImg {
+  display: block;
+  object-fit: cover;
+  float: left;
+  width: 100%;
+  padding-right: 5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 900px) {
+  .nosotrosImg {
+    width: 60%;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+.nosotrosSumate {
+  background-image: url("Images/Inmobiliaria.png");
+  background-position: center;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+.companyTitle{
+  font-family: "Montserrat", sans-serif;
+}
+
+.companySubtitle{
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
