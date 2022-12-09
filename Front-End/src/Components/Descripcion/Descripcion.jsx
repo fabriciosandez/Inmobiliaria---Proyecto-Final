@@ -89,7 +89,7 @@ function Descripcion() {
               </div>
               <div className="dorm">
                 <span>{inmuebles?.sanitarios}</span>
-                <span> Baños</span>scripcion
+                <span> Baños</span>
               </div>
             </div>
             <div className="circuloCont">

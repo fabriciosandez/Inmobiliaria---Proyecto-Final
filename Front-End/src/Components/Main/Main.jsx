@@ -106,28 +106,10 @@ function Main() {
                 justifyItems="center"
                 flexDirection="column"
               >
-                <span>Superficie 100 m2</span>
-                <span>Dormitorios 3 </span> <span>Baños 3</span>
+                <span>Superficie 1.350 m2</span>
+                <span>Dormitorios 9 </span> <span>Baños 4</span>
                 <h3>
-                  Precio <strong>U$S 420.000</strong>
-                </h3>
-              </Flex>
-            </div>
-          </Link>
-          <Link className="divCarousel carrusel1" to={"/inmueble/2"}>
-            <div>
-              <Carrusel />
-              <Flex
-                className="propData"
-                pl="0.5rem"
-                pt="0.5rem"
-                justifyItems="center"
-                flexDirection="column"
-              >
-                <span>Superficie 150 m2</span>
-                <span>Dormitorios 3 </span> <span>Baños 3</span>
-                <h3>
-                  Precio <strong>U$S 520.000</strong>
+                  Precio <strong>U$S 1.000.000</strong>
                 </h3>
               </Flex>
             </div>
@@ -143,9 +125,27 @@ function Main() {
                 flexDirection="column"
               >
                 <span>Superficie 120 m2</span>
+                <span>Dormitorios 5 </span> <span>Baños 2</span>
+                <h3>
+                  Precio <strong>U$S 350.000</strong>
+                </h3>
+              </Flex>
+            </div>
+          </Link>
+          <Link className="divCarousel carrusel1" to={"/inmueble/3"}>
+            <div>
+              <Carrusel />
+              <Flex
+                className="propData"
+                pl="0.5rem"
+                pt="0.5rem"
+                justifyItems="center"
+                flexDirection="column"
+              >
+                <span>Superficie 60 m2</span>
                 <span>Dormitorios 2 </span> <span>Baños 2</span>
                 <h3>
-                  Precio <strong>U$S 280.000</strong>
+                  Precio <strong>$ 26.000</strong>
                 </h3>
               </Flex>
             </div>
